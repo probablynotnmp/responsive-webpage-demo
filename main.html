@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Responsive Website</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		nav {
+			background-color: #ddd;
+			padding: 10px;
+			text-align: center;
+		}
+
+		nav a {
+			display: inline-block;
+			color: #333;
+			padding: 10px;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		section {
+			padding: 20px;
+			text-align: center;
+		}
+
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		@media (min-width: 768px) {
+			nav a {
+				display: inline-block;
+				color: #fff;
+				padding: 10px;
+				text-decoration: none;
+				font-weight: bold;
+			}
+		}
+
+		@media (min-width: 1024px) {
+			header {
+				padding: 50px;
+			}
+
+			nav {
+				display: flex;
+				justify-content: center;
+			}
+
+			nav a {
+				margin: 0 20px;
+			}
+
+			section {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 500px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>My Responsive Website</h1>
+	</header>
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+	</nav>
+	<section>
+		<h2>Welcome to my website</h2>
+		<p>This is a sample text for my responsive website.</p>
+	</section>
+	<footer>
+		<p>&copy; 2023 My Responsive Website</p>
+	</footer>
+</body>
+</html>
